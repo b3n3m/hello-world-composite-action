@@ -22,3 +22,4 @@ runs:
     - run: goodbye.sh
       shell: bash
     - run: echo "actor = ${{ github.actor }} ; repo = ${{ github.repository }} ; ref = ${{ github.ref }}"
+      shell: bash
