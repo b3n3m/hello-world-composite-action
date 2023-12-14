@@ -1,4 +1,4 @@
-oname: 'Hello World'
+name: 'Hello Inside World'
 description: 'Greet someone'
 inputs:
   who-to-greet:  # id of input
