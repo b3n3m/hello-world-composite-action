@@ -26,5 +26,5 @@ runs:
       shell: bash
     - run: echo "actor = ${{ github.actor }} ; repo = ${{ github.repository }} ; ref = ${{ github.ref }} ; secret = ${{ inputs.token }}"
       shell: bash
-    - run: python bin/main.py
+    - run: python main.py
       shell: bash
