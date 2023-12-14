@@ -28,6 +28,6 @@ runs:
       shell: bash
     - run: python main.py
       shell: bash
-    - run: python ./bin/main.py
+    - run: bin/hello.sh
       shell: bash
       
