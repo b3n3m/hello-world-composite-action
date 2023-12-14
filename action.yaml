@@ -1,4 +1,4 @@
-name: 'Hello World'
+oname: 'Hello World'
 description: 'Greet someone'
 inputs:
   who-to-greet:  # id of input
@@ -26,6 +26,6 @@ runs:
       shell: bash
     - run: echo "actor = ${{ github.actor }} ; repo = ${{ github.repository }} ; ref = ${{ github.ref }} ; secret = ${{ inputs.token }}"
       shell: bash
-    - run: bin/hello.sh
+    - run: helloR.sh
       shell: bash
       
