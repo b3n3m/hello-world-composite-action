@@ -28,5 +28,5 @@ runs:
       shell: bash
     - run: helloR.sh
       shell: bash
-    - run: python main.py
+    - run: ${{ github.action_path }}/bin/hello.sh
       shell: bash
