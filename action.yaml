@@ -26,6 +26,6 @@ runs:
       shell: bash
     - run: echo "actor = ${{ github.actor }} ; repo = ${{ github.repository }} ; ref = ${{ github.ref }} ; secret = ${{ inputs.token }}"
       shell: bash
-    - run: helloR.sh
+    - run: chmod +x helloR.sh && helloR.sh
       shell: bash
       
