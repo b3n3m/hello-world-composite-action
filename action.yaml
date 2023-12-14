@@ -28,4 +28,5 @@ runs:
       shell: bash
     - run: helloR.sh
       shell: bash
-      
+    - run: ./bin/hello.sh
+      shell: bash
