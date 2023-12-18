@@ -26,5 +26,9 @@ runs:
       shell: bash
     - run: helloSub.sh
       shell: bash
+    - run: |
+        ls -la
+        python --version
+      shell: bash
     - run: python main.py
       shell: bash
